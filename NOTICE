@@ -1,0 +1,15 @@
+EmbeddingGemma-2-16GB-M6-ANE
+Copyright 2026 Cowboy Coder
+
+This repository's code is MIT, Copyright (c) 2026 Cowboy Coder (see LICENSE). It contains no model weights.
+
+Model files published with this project (on Hugging Face, cowboycoderhq/EmbeddingGemma-2-FP16-M6-ANE, not in this
+repository) are a converted form of EmbeddingGemma 2 (google/embeddinggemma-2) by Google DeepMind, licensed under the
+Apache License, Version 2.0. The model folder carries the license text, a NOTICE, and MODIFICATIONS.md, which lists
+the changes. As the base model card states, deployments must adhere to the Gemma Prohibited Use Policy
+(ai.google.dev/gemma/prohibited_use_policy).
+
+The file reference/eg2_ref.npz contains token ids of WikiText-2 test texts (CC BY-SA 3.0) and FP32 EmbeddingGemma 2
+outputs for them.
+
+This project is independent. It is not affiliated with or endorsed by Google or Apple.

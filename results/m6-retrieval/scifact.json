@@ -1,0 +1,40 @@
+{
+ "dataset": "mteb/scifact test: 5,183 documents (512 tokens), 300 queries (128 tokens), nDCG@10, same token ids for every engine",
+ "date": "2026-10-23",
+ "FP32 sentence-transformers (nDCG@10)": 0.8541626544610695,
+ "this repo, sigmoid-GELU build (FP16), ANE": {
+  "ndcg10": 0.8536666604273393,
+  "doc_cos_mean": 0.9999981683733611,
+  "doc_cos_min": 0.9999385595759134,
+  "top1_same": 0.9966666666666667,
+  "top10_overlap": 0.9953333333333332
+ },
+ "earlier INT8 build, ANE": {
+  "ndcg10": 0.854445795859336,
+  "doc_cos_mean": 0.9998061783356289,
+  "doc_cos_min": 0.9980985231229615,
+  "top1_same": 0.99,
+  "top10_overlap": 0.9773333333333335
+ },
+ "FluidInference (FP16, Core ML), ANE": {
+  "ndcg10": 0.8543087336305323,
+  "doc_cos_mean": 0.9999823789203479,
+  "doc_cos_min": 0.9998148643434263,
+  "top1_same": 0.9933333333333333,
+  "top10_overlap": 0.9903333333333334
+ },
+ "MLX bf16 (mlx-vlm), GPU": {
+  "ndcg10": 0.8528701521370395,
+  "doc_cos_mean": 0.9999661760827272,
+  "doc_cos_min": 0.9995501317959243,
+  "top1_same": 0.9866666666666667,
+  "top10_overlap": 0.9863333333333334
+ },
+ "llama.cpp Q8_0, GPU": {
+  "ndcg10": 0.8551026458276503,
+  "doc_cos_mean": 0.9999227496090806,
+  "doc_cos_min": 0.9996002173835313,
+  "top1_same": 0.9866666666666667,
+  "top10_overlap": 0.9890000000000001
+ }
+}

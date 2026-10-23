@@ -1,0 +1,22 @@
+# Build: convert the model yourself (Python 3.13, any Apple-silicon Mac with macOS 27). Tested versions.
+# coreai-torch 0.4.3 / coreai-core 1.0.0b3 changed the API (AIProgram.optimize was removed); stay on these.
+# coreai-opt 0.2.1 pins an older transformers: install it with --no-deps (scripts/setup.sh --build does this).
+-r requirements.txt
+coreai-torch==0.4.2
+torch==2.14.1
+torchvision==0.29.1
+transformers==5.20.2
+sentence-transformers==6.2.0
+safetensors==0.8.0
+ml_dtypes==0.6.0
+coremltools==9.0
+scipy==1.18.1
+datasets==3.6.0
+pytest==9.1.1
+pydantic==2.14.1
+rich==15.0.0
+torchao==0.17.0
+scikit-learn==1.9.1
+attrs==26.1.0
+cattrs==26.2.1
+tqdm==4.70.1

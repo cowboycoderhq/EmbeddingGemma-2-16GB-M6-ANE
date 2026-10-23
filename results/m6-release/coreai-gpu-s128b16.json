@@ -1,0 +1,47 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "engine": "Core AI GPU",
+ "model": "EmbeddingGemma-2-INT8-M6-ANE.aimodel",
+ "shape": [
+  128,
+  16
+ ],
+ "rate": 270.3722173707323,
+ "seconds": 30.0030827090377,
+ "calls": 507,
+ "idle": {
+  "samples": 93,
+  "ane_power_mean": 0.0001,
+  "ane_power_max": 0.0002,
+  "gpu_power_mean": 0.0352,
+  "gpu_power_max": 0.089,
+  "cpu_power_mean": 0.0527,
+  "all_power_mean": 0.0879,
+  "sys_power_mean": 6.3834,
+  "gpu_active_ratio_mean": 0.0361,
+  "gpu_freq_mhz_mean": 534.8925
+ },
+ "load": {
+  "samples": 274,
+  "ane_power_mean": 0.0,
+  "ane_power_max": 0.0,
+  "gpu_power_mean": 17.5221,
+  "gpu_power_max": 19.3537,
+  "cpu_power_mean": 2.9682,
+  "all_power_mean": 20.4903,
+  "sys_power_mean": 36.0445,
+  "gpu_active_ratio_mean": 0.9522,
+  "gpu_freq_mhz_mean": 1726.4635
+ },
+ "compute_W": 20.4903,
+ "compute_mJ_per_emb": 75.78552337684852,
+ "compute_mJ_per_emb_above_idle": 75.46041600873653,
+ "mac_W": 36.0445,
+ "mac_mJ_per_emb": 133.31436325270084,
+ "mac_mJ_per_emb_above_idle": 109.70468892271178,
+ "note": "the fastest Core AI GPU result we measured: the earlier INT8 build of the same graph, run on the GPU"
+}

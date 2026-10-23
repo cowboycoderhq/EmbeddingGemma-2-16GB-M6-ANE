@@ -1,0 +1,46 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "engine": "Core AI ANE",
+ "model": "EmbeddingGemma-2-FP16-M6-ANE.aimodel",
+ "shape": [
+  128,
+  16
+ ],
+ "rate": 285.2591746671732,
+ "seconds": 30.007799083017744,
+ "calls": 535,
+ "idle": {
+  "samples": 92,
+  "ane_power_mean": 0.0002,
+  "ane_power_max": 0.0006,
+  "gpu_power_mean": 0.0341,
+  "gpu_power_max": 0.0441,
+  "cpu_power_mean": 0.0501,
+  "all_power_mean": 0.0844,
+  "sys_power_mean": 6.1688,
+  "gpu_active_ratio_mean": 0.0369,
+  "gpu_freq_mhz_mean": 503.0109
+ },
+ "load": {
+  "samples": 276,
+  "ane_power_mean": 10.3319,
+  "ane_power_max": 11.7437,
+  "gpu_power_mean": 0.0656,
+  "gpu_power_max": 0.1054,
+  "cpu_power_mean": 0.9027,
+  "all_power_mean": 11.3002,
+  "sys_power_mean": 19.9163,
+  "gpu_active_ratio_mean": 0.0284,
+  "gpu_freq_mhz_mean": 1391.7319
+ },
+ "compute_W": 11.3002,
+ "compute_mJ_per_emb": 39.613800373588454,
+ "compute_mJ_per_emb_above_idle": 39.3179290835643,
+ "mac_W": 19.9163,
+ "mac_mJ_per_emb": 69.81826271928813,
+ "mac_mJ_per_emb_above_idle": 48.193016109087196
+}

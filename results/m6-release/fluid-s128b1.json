@@ -1,0 +1,45 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "build": "fluid",
+ "what": "fluid embed_128",
+ "cu": "ane",
+ "conc": 4,
+ "rate": 206.41913452752752,
+ "seconds": 30.016597124980763,
+ "calls": 1549,
+ "idle": {
+  "samples": 92,
+  "ane_power_mean": 0.0002,
+  "ane_power_max": 0.0005,
+  "gpu_power_mean": 0.0339,
+  "gpu_power_max": 0.0442,
+  "cpu_power_mean": 0.0468,
+  "all_power_mean": 0.0809,
+  "sys_power_mean": 5.6104,
+  "gpu_active_ratio_mean": 0.0341,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "load": {
+  "samples": 284,
+  "ane_power_mean": 8.0567,
+  "ane_power_max": 9.1026,
+  "gpu_power_mean": 0.0291,
+  "gpu_power_max": 0.0404,
+  "cpu_power_mean": 0.3158,
+  "all_power_mean": 8.4015,
+  "sys_power_mean": 16.8481,
+  "gpu_active_ratio_mean": 0.0216,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "compute_W": 8.4015,
+ "compute_mJ_per_emb": 40.70116861612748,
+ "compute_mJ_per_emb_above_idle": 40.30924758523482,
+ "mac_W": 16.8481,
+ "mac_mJ_per_emb": 81.6208247290814,
+ "mac_mJ_per_emb_above_idle": 54.44117390435705,
+ "note": "4 requests at the same time (no speed change vs 1). Used for energy: two runs with 1 request got too few macmon samples (31 and 82 of about 280); their speed was the same (205.6 to 207.5 emb/s)."
+}

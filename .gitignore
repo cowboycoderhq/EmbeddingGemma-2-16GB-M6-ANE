@@ -1,0 +1,10 @@
+.venv/
+.venv-build/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aimodel/
+*.mlpackage/
+*.mlmodelc/
+*.npy
+.DS_Store

@@ -1,0 +1,179 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "repo": "mlx-community/embeddinggemma-2-bf16",
+ "runtime": "mlx-vlm 0.7.4 (3d87e88), mlx 0.32.4",
+ "runs": {
+  "s128b16": {
+   "seq": 128,
+   "batch": 16,
+   "metric": {
+    "runs": [
+     222.8178,
+     222.1578,
+     222.5653,
+     222.3644,
+     222.7953
+    ],
+    "median": 222.5653,
+    "min": 222.1578,
+    "max": 222.8178
+   },
+   "power": {
+    "samples": 187,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 13.3132,
+    "gpu_power_max": 15.4211,
+    "cpu_power_mean": 0.2119,
+    "all_power_mean": 13.525,
+    "sys_power_mean": 26.2263,
+    "gpu_active_ratio_mean": 0.9328,
+    "gpu_freq_mhz_mean": 1729.139
+   }
+  },
+  "s512b4": {
+   "seq": 512,
+   "batch": 4,
+   "metric": {
+    "runs": [
+     53.5916,
+     53.6084,
+     53.626,
+     53.6065,
+     53.6167
+    ],
+    "median": 53.6084,
+    "min": 53.5916,
+    "max": 53.626
+   },
+   "power": {
+    "samples": 184,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 14.9878,
+    "gpu_power_max": 16.4036,
+    "cpu_power_mean": 0.9042,
+    "all_power_mean": 15.892,
+    "sys_power_mean": 31.3741,
+    "gpu_active_ratio_mean": 0.9937,
+    "gpu_freq_mhz_mean": 1733.1196
+   }
+  },
+  "s128b32": {
+   "seq": 128,
+   "batch": 32,
+   "metric": {
+    "runs": [
+     227.9052,
+     229.1104,
+     228.8967,
+     229.0835,
+     229.0412
+    ],
+    "median": 229.0412,
+    "min": 227.9052,
+    "max": 229.1104
+   },
+   "power": {
+    "samples": 185,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 13.9965,
+    "gpu_power_max": 15.3651,
+    "cpu_power_mean": 0.7086,
+    "all_power_mean": 14.7051,
+    "sys_power_mean": 30.9597,
+    "gpu_active_ratio_mean": 0.9911,
+    "gpu_freq_mhz_mean": 1733.1297
+   }
+  },
+  "s128b64": {
+   "seq": 128,
+   "batch": 64,
+   "metric": {
+    "runs": [
+     219.7232,
+     220.4174,
+     220.4955,
+     220.4359,
+     220.4167
+    ],
+    "median": 220.4174,
+    "min": 219.7232,
+    "max": 220.4955
+   },
+   "power": {
+    "samples": 186,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 13.6137,
+    "gpu_power_max": 14.9885,
+    "cpu_power_mean": 0.6094,
+    "all_power_mean": 14.2232,
+    "sys_power_mean": 30.7562,
+    "gpu_active_ratio_mean": 0.9917,
+    "gpu_freq_mhz_mean": 1733.1022
+   }
+  },
+  "s512b8": {
+   "seq": 512,
+   "batch": 8,
+   "metric": {
+    "runs": [
+     50.7805,
+     51.0286,
+     50.9898,
+     51.0356,
+     51.0386
+    ],
+    "median": 51.0286,
+    "min": 50.7805,
+    "max": 51.0386
+   },
+   "power": {
+    "samples": 186,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 14.5418,
+    "gpu_power_max": 15.9216,
+    "cpu_power_mean": 0.6772,
+    "all_power_mean": 15.219,
+    "sys_power_mean": 31.716,
+    "gpu_active_ratio_mean": 0.9916,
+    "gpu_freq_mhz_mean": 1733.1075
+   }
+  },
+  "s512b16": {
+   "seq": 512,
+   "batch": 16,
+   "metric": {
+    "runs": [
+     48.7277,
+     48.778,
+     48.8288,
+     48.8404,
+     48.7909
+    ],
+    "median": 48.7909,
+    "min": 48.7277,
+    "max": 48.8404
+   },
+   "power": {
+    "samples": 194,
+    "ane_power_mean": 0.0,
+    "ane_power_max": 0.0,
+    "gpu_power_mean": 14.0418,
+    "gpu_power_max": 15.7404,
+    "cpu_power_mean": 0.6081,
+    "all_power_mean": 14.6499,
+    "sys_power_mean": 31.5223,
+    "gpu_active_ratio_mean": 0.9921,
+    "gpu_freq_mhz_mean": 1733.134
+   }
+  }
+ }
+}

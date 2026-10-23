@@ -1,0 +1,46 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "engine": "MLX GPU (mlx-vlm)",
+ "model": "mlx-community/embeddinggemma-2-bf16",
+ "shape": [
+  512,
+  4
+ ],
+ "rate": 50.2341876136406,
+ "seconds": 30.01939658302581,
+ "calls": 377,
+ "idle": {
+  "samples": 93,
+  "ane_power_mean": 0.0,
+  "ane_power_max": 0.0,
+  "gpu_power_mean": 0.0384,
+  "gpu_power_max": 0.0813,
+  "cpu_power_mean": 0.0581,
+  "all_power_mean": 0.0965,
+  "sys_power_mean": 7.6433,
+  "gpu_active_ratio_mean": 0.0363,
+  "gpu_freq_mhz_mean": 538.828
+ },
+ "load": {
+  "samples": 278,
+  "ane_power_mean": 0.0,
+  "ane_power_max": 0.0,
+  "gpu_power_mean": 14.0195,
+  "gpu_power_max": 16.329,
+  "cpu_power_mean": 0.3314,
+  "all_power_mean": 14.3509,
+  "sys_power_mean": 27.5036,
+  "gpu_active_ratio_mean": 0.9521,
+  "gpu_freq_mhz_mean": 1726.7554
+ },
+ "compute_W": 14.3509,
+ "compute_mJ_per_emb": 285.679945904075,
+ "compute_mJ_per_emb_above_idle": 283.7589434039012,
+ "mac_W": 27.5036,
+ "mac_mJ_per_emb": 547.50760998734,
+ "mac_mJ_per_emb_above_idle": 395.3542585927503
+}

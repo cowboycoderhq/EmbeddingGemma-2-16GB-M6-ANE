@@ -1,0 +1,44 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "build": "fluid",
+ "what": "fluid embed_512",
+ "cu": "ane",
+ "conc": 1,
+ "rate": 55.0320186018847,
+ "seconds": 30.000716709007975,
+ "calls": 1651,
+ "idle": {
+  "samples": 92,
+  "ane_power_mean": 0.0002,
+  "ane_power_max": 0.0005,
+  "gpu_power_mean": 0.0358,
+  "gpu_power_max": 0.0468,
+  "cpu_power_mean": 0.0407,
+  "all_power_mean": 0.0767,
+  "sys_power_mean": 5.5572,
+  "gpu_active_ratio_mean": 0.0369,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "load": {
+  "samples": 277,
+  "ane_power_mean": 9.5191,
+  "ane_power_max": 10.5677,
+  "gpu_power_mean": 0.0303,
+  "gpu_power_max": 0.0423,
+  "cpu_power_mean": 0.1817,
+  "all_power_mean": 9.7311,
+  "sys_power_mean": 18.871,
+  "gpu_active_ratio_mean": 0.0237,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "compute_W": 9.7311,
+ "compute_mJ_per_emb": 176.8261504342989,
+ "compute_mJ_per_emb_above_idle": 175.43241635096703,
+ "mac_W": 18.871,
+ "mac_mJ_per_emb": 342.9094639707386,
+ "mac_mJ_per_emb_above_idle": 241.92825083003655
+}

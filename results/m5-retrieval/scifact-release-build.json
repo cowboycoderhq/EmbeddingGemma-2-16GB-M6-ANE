@@ -1,0 +1,13 @@
+{
+ "dataset": "mteb/scifact test, same token ids as results/m6-retrieval",
+ "date": "2026-10-23",
+ "note": "the release model file, run on the ANE of an M5 Max (the build Mac); the m6 was offline",
+ "FP32 sentence-transformers (nDCG@10)": 0.8541626544610695,
+ "this repo, release build (FP16), ANE": {
+  "ndcg10": 0.8543486175283526,
+  "doc_cos_mean": 0.9999889737941475,
+  "doc_cos_min": 0.9999119088058404,
+  "top1_same": 0.9933333333333333,
+  "top10_overlap": 0.9916666666666667
+ }
+}

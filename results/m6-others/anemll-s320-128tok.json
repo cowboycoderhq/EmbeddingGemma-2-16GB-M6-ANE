@@ -1,0 +1,44 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "build": "anemll",
+ "what": "anemll s320 with 128 real tokens",
+ "cu": "ane",
+ "conc": 1,
+ "rate": 43.813513255092566,
+ "seconds": 30.0135712090414,
+ "calls": 1315,
+ "idle": {
+  "samples": 93,
+  "ane_power_mean": 0.0002,
+  "ane_power_max": 0.0004,
+  "gpu_power_mean": 0.0342,
+  "gpu_power_max": 0.045,
+  "cpu_power_mean": 0.0429,
+  "all_power_mean": 0.0773,
+  "sys_power_mean": 6.2093,
+  "gpu_active_ratio_mean": 0.0346,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "load": {
+  "samples": 276,
+  "ane_power_mean": 5.9895,
+  "ane_power_max": 6.8989,
+  "gpu_power_mean": 0.0295,
+  "gpu_power_max": 0.0421,
+  "cpu_power_mean": 0.1567,
+  "all_power_mean": 6.1757,
+  "sys_power_mean": 13.198,
+  "gpu_active_ratio_mean": 0.0225,
+  "gpu_freq_mhz_mean": 502.0
+ },
+ "compute_W": 6.1757,
+ "compute_mJ_per_emb": 140.95422944157946,
+ "compute_mJ_per_emb_above_idle": 139.18993358267534,
+ "mac_W": 13.198,
+ "mac_mJ_per_emb": 301.2312644995653,
+ "mac_mJ_per_emb_above_idle": 159.51014837157996
+}

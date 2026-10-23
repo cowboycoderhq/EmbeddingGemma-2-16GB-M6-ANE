@@ -1,0 +1,46 @@
+{
+ "host": {
+  "machine": "Mac mini, Apple M6, 16 GB",
+  "hw.model": "Mac18,5",
+  "macos": "27.0.1"
+ },
+ "engine": "llama.cpp GPU (Metal)",
+ "model": "ggml-org/embeddinggemma-2-GGUF Q8_0",
+ "shape": [
+  128,
+  16
+ ],
+ "rate": 147.09094003530717,
+ "seconds": 30.022243375016842,
+ "calls": 276,
+ "idle": {
+  "samples": 93,
+  "ane_power_mean": 0.0,
+  "ane_power_max": 0.0,
+  "gpu_power_mean": 0.0382,
+  "gpu_power_max": 0.0816,
+  "cpu_power_mean": 0.0574,
+  "all_power_mean": 0.0956,
+  "sys_power_mean": 6.1112,
+  "gpu_active_ratio_mean": 0.0365,
+  "gpu_freq_mhz_mean": 537.871
+ },
+ "load": {
+  "samples": 280,
+  "ane_power_mean": 0.0,
+  "ane_power_max": 0.0,
+  "gpu_power_mean": 14.0356,
+  "gpu_power_max": 15.9136,
+  "cpu_power_mean": 1.1059,
+  "all_power_mean": 15.1415,
+  "sys_power_mean": 28.6032,
+  "gpu_active_ratio_mean": 0.9364,
+  "gpu_freq_mhz_mean": 1727.7714
+ },
+ "compute_W": 15.1415,
+ "compute_mJ_per_emb": 102.93971876422498,
+ "compute_mJ_per_emb_above_idle": 102.28978070565351,
+ "mac_W": 28.6032,
+ "mac_mJ_per_emb": 194.4592915997015,
+ "mac_mJ_per_emb_above_idle": 152.91220516097798
+}

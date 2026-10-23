@@ -1,0 +1,5 @@
+# Runtime: what the Mac that runs the model needs (Python 3.11-3.13). Tested versions.
+coreai-core==1.0.0b2
+numpy==2.3.5
+tokenizers==0.23.3
+huggingface-hub==2.2.0
